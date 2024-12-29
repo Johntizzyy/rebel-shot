@@ -1,11 +1,11 @@
-const deviceWidth = document.getElementById("sysWidth");
+// const deviceWidth = document.getElementById("sysWidth");
 const form = document.getElementById("contact-form");
 
-console.log(deviceWidth);
+// console.log(deviceWidth);
 
-window.addEventListener("resize", () => {
-  deviceWidth.innerHTML = `${window.innerWidth}px`;
-});
+// window.addEventListener("resize", () => {
+//   deviceWidth.innerHTML = `${window.innerWidth}px`;
+// });
 
 const contact = document.querySelector("#contact");
 const portfolio = document.querySelector("#portfolio");
@@ -23,7 +23,7 @@ console.log(pageContent);
 window.addEventListener("load", () => {
   const pageContent = document.querySelectorAll("#pageContent");
   pageContent.forEach((content) => {
-    content.style.display = "block";
+    // content.style.display = "block";
   });
 
   contact.style.display = "block";
@@ -89,6 +89,6 @@ window.addEventListener("load", () => {
     document.getElementById("email").value = "";
     document.getElementById("message").value = "";
 
-    // console.log("sucess")
   });
 });
+

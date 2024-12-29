@@ -16,6 +16,7 @@
   /* position: relative; */
   top: 40%;
   right: 50%;
+  display: none;
 }
 
 .loader {
@@ -51,35 +52,13 @@
 
 .content {
   position: relative;
-  width: 85%;
-  margin: auto;
+  /* width: 85%;
+
+  margin:auto ; */
 }
 .content > nav {
-  /* background-color: #00000088; */
   padding: 0 20px;
-  /* border-radius: 20px;
-    filter: blur(1px);
-    position: fixed;
-    z-index: 2; */
 }
-/* .content > nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.content > nav > ul {
-  display: flex;
-}
-
-.content > nav > ul > li {
-  list-style-type: none;
-  margin-right: 20px;
-  
-}
-.content > nav > ul > li > a {
-  text-decoration: none;
-  color: aliceblue;
-} */
 
 .content .logo-image {
   display: flex;
@@ -94,9 +73,6 @@
 }
 #log {
   font-size: 2rem;
-}
-.logo-image {
-  /* border: 2px solid red; */
 }
 .logo-image img {
   width: 40%;
@@ -435,11 +411,6 @@ img {
   border-radius: 20px;
 }
 
-#contact-container {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-}
 
 label {
   display: block;
@@ -487,9 +458,6 @@ input:focus {
 
   border: none;
 }
-input::placeholder {
-  /* color: #272525; */
-}
 
 #firstName {
   margin-right: 25px;
@@ -510,9 +478,6 @@ input::placeholder {
 #email {
   padding: 8px 200px 8px 10px;
   border-radius: 5px;
-}
-.lastname-div {
-  /* margin-top: 20px; */
 }
 .message-div {
   margin-top: 20px;
@@ -596,9 +561,6 @@ input::placeholder {
   /* border: 2px solid red; */
 }
 
-.footer .icons > img {
-  /* padding-right: 20px; */
-}
 .footer .icons::before {
   content: "";
   top: 15px;
